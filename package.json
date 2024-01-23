@@ -1,0 +1,17 @@
+{
+  "name": "my-birthday",
+  "version": "0.0.0",
+  "description": "Floating through some balloons on your site when it's your birthday! Happy birthday to you!",
+  "keywords": [
+    "birthday",
+    "balloons",
+    "celebration"
+  ],
+  "author": "liruifengv",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-dts": "^3.7.1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "my-birthday",
+  "version": "0.0.0",
+  "description": "Floating through some balloons on your site when it's your birthday! Happy birthday!",
+  "main": "./dist/my-birthday.js",
+  "module": "./dist/my-birthday.mjs",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/my-birthday.mjs",
+      "require": "./dist/my-birthday.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "types": "./dist/types/index.d.ts",
+  "keywords": ["birthday", "balloons", "celebration"],
+  "author": "liruifengv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liruifengv/my-birthday"
+  },
+  "bugs": {
+    "url": "https://github.com/liruifengv/my-birthday/issues"
+  },
+  "homepage": "https://github.com/liruifengv/my-birthday",
+  "publishConfig": {
+    "access": "public"
+  }
+}
