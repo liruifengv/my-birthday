@@ -2,6 +2,12 @@
   "name": "my-birthday",
   "version": "0.0.0",
   "description": "Floating through some balloons on your site when it's your birthday! Happy birthday to you!",
+  "scripts": {
+	"changeset": "changeset",
+    "build": "pnpm run -r build",
+    "version": "changeset version",
+    "preinstall": "npx only-allow pnpm"
+  },
   "keywords": [
     "birthday",
     "balloons",
@@ -10,6 +16,7 @@
   "author": "liruifengv",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
     "vite-plugin-dts": "^3.7.1"

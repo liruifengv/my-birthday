@@ -16,10 +16,15 @@
   },
   "scripts": {
     "dev": "vite build --watch",
-    "build": "vite build"
+    "build": "vite build",
+	"preinstall": "npx only-allow pnpm"
   },
   "types": "./dist/types/index.d.ts",
-  "keywords": ["birthday", "balloons", "celebration"],
+  "keywords": [
+    "birthday",
+    "balloons",
+    "celebration"
+  ],
   "author": "liruifengv",
   "license": "MIT",
   "repository": {
