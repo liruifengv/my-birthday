@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "description": "Floating through some balloons on your site when it's your birthday! Happy birthday to you!",
   "scripts": {
-	"changeset": "changeset",
+    "changeset": "changeset",
     "build": "pnpm run -r build",
     "version": "changeset version",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+	"format": "biome format packages --write",
+	"lint": "biome lint packages",
+	"check": "biome check --apply packages"
   },
   "keywords": [
     "birthday",
@@ -16,6 +19,7 @@
   "author": "liruifengv",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "1.5.3",
     "@changesets/cli": "^2.27.1",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
